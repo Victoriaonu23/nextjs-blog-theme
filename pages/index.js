@@ -32,6 +32,7 @@ export default function Index({ posts, globalData }) {
                     <p className="uppercase mb-3 font-bold opacity-60">
                       {post.data.date}
                     </p>
+       <Link href='/'><a className="text-primary">NaijaSpider.com</a></Link>
                   )}
                   <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
                   {post.data.description && (
