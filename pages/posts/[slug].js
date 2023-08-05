@@ -69,6 +69,7 @@ export default function PostPage({
                 <ArrowIcon className="transform rotate-180 mx-auto md:mr-0 mt-auto" />
               </a>
             </Link>
+         <Link href='/'><a className="text-primary">NaijaSpider.com</a></Link>
           )}
           {nextPost && (
             <Link href={`/posts/${nextPost.slug}`}>
