@@ -33,6 +33,7 @@ export default function Index({ posts, globalData }) {
                       {post.data.date}
                     </p>
        <Link href='/'><a className="text-primary">NaijaSpider.com</a></Link>
+      <Link href='/'><a className="text-primary">Opiopio.ng</a></Link>
                   )}
                   <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
                   {post.data.description && (
